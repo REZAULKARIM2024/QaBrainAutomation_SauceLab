@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 348.5 s <<< FAILURE! -- in runners.TestRunner
+runners.TestRunner.runScenario["Add product to cart", "Cart Functionality"](1) -- Time elapsed: 36.46 s <<< FAILURE!
+java.lang.AssertionError: ❌ Product was not found in the cart after adding expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.CartSteps.product_should_appear_in_cart(CartSteps.java:29)
+	at ✽.Product should appear in cart(file:///C:/Users/rezau/eclipse-workspace/qaBrainSauceLabAutomation/src/test/resources/features/CartCheckout.feature:10)
+

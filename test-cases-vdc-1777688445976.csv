@@ -1,0 +1,17 @@
+,name,total_runs,total_duration,avg_duration,median_duration,pass_rate (%),fail_rate (%),error_rate (%),complete_rate (%),status_passed,status_failed,status_error,status_complete
+1,Add product to cart,3,0:01:42,0:00:34,0:00:34,0,100,0,0,0,3,0,0
+2,Logged in user should be able to logout,3,0:01:13,0:00:24,0:00:18,100,0,0,0,3,0,0,0
+3,Login with invalid credentials,3,0:01:38,0:00:33,0:00:24,100,0,0,0,3,0,0,0
+4,Login with valid credentials,3,0:00:45,0:00:15,0:00:16,100,0,0,0,3,0,0,0
+5,R-01 Add multiple products to cart,3,0:01:06,0:00:22,0:00:22,100,0,0,0,3,0,0,0
+6,R-02 Update product quantity,3,0:00:43,0:00:14,0:00:13,100,0,0,0,3,0,0,0
+7,R-03 Search invalid item,3,0:00:38,0:00:13,0:00:12,100,0,0,0,3,0,0,0
+8,Registered user can reset password,3,0:00:49,0:00:16,0:00:16,100,0,0,0,3,0,0,0
+9,Remove product from cart,3,0:02:08,0:00:43,0:00:43,100,0,0,0,3,0,0,0
+10,S-01 Verify Home page loads,3,0:00:36,0:00:12,0:00:12,100,0,0,0,3,0,0,0
+11,S-02 Verify navigation links,3,0:00:33,0:00:11,0:00:10,100,0,0,0,3,0,0,0
+12,S-03 Verify wish list and refer a friend,3,0:00:36,0:00:12,0:00:12,100,0,0,0,3,0,0,0
+13,Unregistered user cannot reset password,3,0:03:22,0:01:07,0:01:08,100,0,0,0,3,0,0,0
+14,User should be able to register successfully with a valid email,3,0:00:58,0:00:19,0:00:19,100,0,0,0,3,0,0,0
+15,User should not be able to register with invalid email,3,0:00:50,0:00:17,0:00:16,100,0,0,0,3,0,0,0
+16,https://practice.qabrains.com/,2,0:01:17,0:00:38,0:00:38,0,0,0,100,0,0,0,2
